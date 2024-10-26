@@ -1,0 +1,105 @@
+body {
+    background-color: #f4f5f7;
+    font-family: 'Helvetica', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#putinto {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width:355px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+    width: 100%;
+    margin-right:21px;
+}
+h2 {
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px; 
+    margin-right:21px;
+}
+
+input[type="text"] {
+    width:355px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2); 
+}
+
+label.privacyPolicy {
+    font-size: 14px; 
+    color: #666;
+}
+
+#submitbut {
+    background-color: #7b5cd6;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    width:107%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+.user-item {
+    margin-top:13px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight:bold;
+    width:385px;
+}
+
+.user-item div {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-item span {
+    font-size: 14px;
+    color: #333;
+}
+
+.user-item small {
+    color: #a2a6a3;
+    font-size: 12px;
+}
+
+.user-item button {
+    background-color:transparent;
+    color: gray;
+    border: none;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer; 
+}

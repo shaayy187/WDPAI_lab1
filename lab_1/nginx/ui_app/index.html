@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="requests_async.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Users List</title>
+</head>
+<body>
+
+    
+    <div id="putinto">
+    <h2>Let's level up your brand, together</h2>
+    <h3>Enter Username</h3>
+    <input type="text" id="inbox1" placeholder="First Name">
+    
+
+
+    <h3>Enter Lastname</h3>
+    <input type="text" id="inbox2" placeholder="Last Name">
+
+
+    <h3>Role</h3>
+    <input type="text" id="Roles" placeholder="Role">
+    
+        
+    <div id="privacy">
+    <input type="checkbox" id="privacyPolicy">
+    <label for="privacyPolicy" class="privacyPolicy">You agree to our friendly <a href="https://www.w3schools.com" target="_blank">privacy policy.</a></label>
+    </div>
+
+    <br/>
+    <button id="submitbut" onclick="sendPostRequest()">SUBMIT</button>
+   
+
+    </div>
+<table id="usersList">
+</table>
+
+</body>
+</html>
